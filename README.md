@@ -260,7 +260,7 @@
   - **准备数据**：整理 `sample_ids`, `queries`, `responses`, `rewards` 以及可选的元数据
   - **调用写入**：调用 `self._limr_sample_writer.write_batch` 将数据写入 JSON Lines 文件
 - 目的
-  - 实现将 PPO 过程中产生的关键信息持久化到磁盘，供后续分析
+  - 实现将 PPO 过程中产生的关键信息保存，供后续分析
 
 ## 4. 处理 `reward_model_type: limr`
 
