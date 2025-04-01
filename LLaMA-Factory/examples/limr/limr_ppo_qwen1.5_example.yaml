@@ -1,0 +1,70 @@
+# 基本模型和输出设置
+model_name_or_path: /root/autodl-tmp/models/qwen/Qwen2.5-7B-Instruct
+output_dir: /root/autodl-tmp/LIMR/saves/Qwen2.5-7B/limr_ppo_run_18
+overwrite_output_dir: true
+stage: ppo
+do_train: true
+finetuning_type: lora
+
+# 数据集和模板设置
+dataset: math.8k
+dataset_dir: /root/autodl-tmp/LIMR/LLaMA-Factory/data
+template: qwen
+cutoff_len: 384                 # Further reduced from 512 (OOM fix attempt)
+max_samples: 8000
+
+# 训练参数（防崩溃优化 + 20 Epochs）
+per_device_train_batch_size: 1  # 降至最低
+gradient_accumulation_steps: 32 # 增大以维持总批次大小
+learning_rate: 2e-7            # 保持极低学习率
+num_train_epochs: 20.0           # 设置为 20 epochs
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 0.3
+gradient_checkpointing: true
+logging_steps: 1
+save_steps: 80                  # 大约每 epoch 保存一次
+save_total_limit: 25            # 增加保存限制以覆盖 20 epochs
+dataloader_num_workers: 2
+log_level: info
+log_on_each_node: true
+ddp_find_unused_parameters: false
+report_to: ["tensorboard"]
+bf16: true
+
+# LoRA具体参数
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.1
+lora_target: "q_proj,v_proj,k_proj,o_proj,gate_proj,down_proj,up_proj"
+
+# PPO具体参数（防崩溃优化）
+ppo_score_norm: true
+ppo_whiten_rewards: true
+reward_model: ""
+ppo_buffer_size: 4              # 保持小缓冲区
+ppo_epochs: 1                   # 保持单次PPO更新
+max_new_tokens: 48              # 保持极短生成长度
+ppo_target: 0.005               # 保持极低KL目标
+
+# LIMR具体参数
+limr:
+  enabled: true
+  reward_type: rule
+  ground_truth_dataset: /root/autodl-tmp/LIMR/LLaMA-Factory/data/math.8k.json
+  reward_correct: 0.5
+  reward_incorrect: -0.1
+  math_equal_normalize: true
+  save_samples_path: /root/autodl-tmp/LIMR/saves/Qwen2.5-7B/limr_ppo_run_18/train
+  save_every_n_steps: 1
+
+# 生成参数
+top_k: 40
+top_p: 0.98
+temperature: 0.5
+do_sample: true
+
+# 确保禁用deepspeed和fsdp
+deepspeed: ""
+fsdp: ""

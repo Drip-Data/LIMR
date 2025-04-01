@@ -1,0 +1,14 @@
+{"current_steps": 1, "total_steps": 625, "loss": 0.1584, "reward": 0.0, "lr": 5e-07, "epoch": 0.01, "percentage": 0.16, "elapsed_time": "0:00:15", "remaining_time": "2:42:30"}
+{"current_steps": 2, "total_steps": 625, "loss": 0.1408, "reward": 0.0438, "lr": 5e-07, "epoch": 0.02, "percentage": 0.32, "elapsed_time": "0:00:22", "remaining_time": "1:58:00"}
+{"current_steps": 3, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.02, "percentage": 0.48, "elapsed_time": "0:00:46", "remaining_time": "2:39:59"}
+{"current_steps": 4, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.03, "percentage": 0.64, "elapsed_time": "0:01:08", "remaining_time": "2:57:38"}
+{"current_steps": 5, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.04, "percentage": 0.8, "elapsed_time": "0:01:31", "remaining_time": "3:10:05"}
+{"current_steps": 6, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.05, "percentage": 0.96, "elapsed_time": "0:01:54", "remaining_time": "3:16:59"}
+{"current_steps": 7, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.06, "percentage": 1.12, "elapsed_time": "0:02:16", "remaining_time": "3:21:33"}
+{"current_steps": 8, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.06, "percentage": 1.28, "elapsed_time": "0:02:39", "remaining_time": "3:24:27"}
+{"current_steps": 9, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.07, "percentage": 1.44, "elapsed_time": "0:03:01", "remaining_time": "3:27:17"}
+{"current_steps": 10, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.08, "percentage": 1.6, "elapsed_time": "0:03:24", "remaining_time": "3:29:28"}
+{"current_steps": 11, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.09, "percentage": 1.76, "elapsed_time": "0:03:46", "remaining_time": "3:31:05"}
+{"current_steps": 12, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.1, "percentage": 1.92, "elapsed_time": "0:04:10", "remaining_time": "3:33:25"}
+{"current_steps": 13, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.1, "percentage": 2.08, "elapsed_time": "0:04:33", "remaining_time": "3:34:22"}
+{"current_steps": 14, "total_steps": 625, "loss": NaN, "reward": -0.05, "lr": 5e-07, "epoch": 0.11, "percentage": 2.24, "elapsed_time": "0:04:55", "remaining_time": "3:34:54"}

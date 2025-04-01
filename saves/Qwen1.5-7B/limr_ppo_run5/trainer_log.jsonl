@@ -1,0 +1,4 @@
+{"current_steps": 1, "total_steps": 134, "loss": 0.5859, "reward": -0.9, "lr": 0.0, "epoch": 0.01, "percentage": 0.75, "elapsed_time": "0:02:25", "remaining_time": "5:23:24"}
+{"current_steps": 2, "total_steps": 134, "loss": NaN, "reward": -0.9667, "lr": 1e-08, "epoch": 0.01, "percentage": 1.49, "elapsed_time": "0:05:13", "remaining_time": "5:44:49"}
+{"current_steps": 1, "total_steps": 134, "loss": NaN, "reward": -1.0, "lr": 0.0, "epoch": 0.01, "percentage": 0.75, "elapsed_time": "0:02:26", "remaining_time": "5:23:38"}
+{"current_steps": 2, "total_steps": 134, "loss": NaN, "reward": -1.0, "lr": 1e-08, "epoch": 0.01, "percentage": 1.49, "elapsed_time": "0:05:17", "remaining_time": "5:49:47"}

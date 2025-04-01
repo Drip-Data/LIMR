@@ -1,0 +1,2 @@
+{"current_steps": 1, "total_steps": 800, "loss": 0.6745, "reward": -1.0, "lr": 0.0, "epoch": 0.01, "percentage": 0.12, "elapsed_time": "0:01:33", "remaining_time": "20:49:16"}
+{"current_steps": 1, "total_steps": 800, "loss": NaN, "reward": -1.0, "lr": 0.0, "epoch": 0.01, "percentage": 0.12, "elapsed_time": "0:01:34", "remaining_time": "20:55:25"}

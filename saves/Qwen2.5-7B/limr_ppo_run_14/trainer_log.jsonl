@@ -1,0 +1,12 @@
+{"current_steps": 3, "total_steps": 500, "loss": NaN, "reward": -0.15, "lr": 0.0, "epoch": 0.06, "percentage": 0.6, "elapsed_time": "0:26:56", "remaining_time": "3 days, 2:23:20"}
+{"current_steps": 16, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 5.88235294117647e-08, "epoch": 0.32, "percentage": 3.2, "elapsed_time": "2:19:25", "remaining_time": "2 days, 22:17:47"}
+{"current_steps": 17, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 1.176470588235294e-07, "epoch": 0.34, "percentage": 3.4, "elapsed_time": "2:29:14", "remaining_time": "2 days, 22:40:25"}
+{"current_steps": 19, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 1.764705882352941e-07, "epoch": 0.38, "percentage": 3.8, "elapsed_time": "2:47:52", "remaining_time": "2 days, 22:49:43"}
+{"current_steps": 20, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 2.352941176470588e-07, "epoch": 0.4, "percentage": 4.0, "elapsed_time": "2:57:35", "remaining_time": "2 days, 23:02:11"}
+{"current_steps": 25, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 2.941176470588235e-07, "epoch": 0.5, "percentage": 5.0, "elapsed_time": "3:41:20", "remaining_time": "2 days, 22:05:36"}
+{"current_steps": 34, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 3.529411764705882e-07, "epoch": 0.68, "percentage": 6.8, "elapsed_time": "4:59:00", "remaining_time": "2 days, 20:18:17"}
+{"current_steps": 35, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 4.117647058823529e-07, "epoch": 0.7, "percentage": 7.0, "elapsed_time": "5:09:02", "remaining_time": "2 days, 20:25:51"}
+{"current_steps": 42, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 4.705882352941176e-07, "epoch": 0.84, "percentage": 8.4, "elapsed_time": "6:10:14", "remaining_time": "2 days, 19:17:20"}
+{"current_steps": 43, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 5.294117647058823e-07, "epoch": 0.86, "percentage": 8.6, "elapsed_time": "6:20:26", "remaining_time": "2 days, 19:23:17"}
+{"current_steps": 50, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 5.88235294117647e-07, "epoch": 1.0, "percentage": 10.0, "elapsed_time": "7:21:31", "remaining_time": "2 days, 18:13:44"}
+{"current_steps": 59, "total_steps": 500, "loss": NaN, "reward": -0.5, "lr": 6.470588235294117e-07, "epoch": 1.18, "percentage": 11.8, "elapsed_time": "8:39:26", "remaining_time": "2 days, 16:42:38"}
