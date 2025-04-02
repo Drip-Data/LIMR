@@ -24,7 +24,7 @@
 
    - PPO 训练完成后，脚本调用 `LLaMA-Factory-FOR-LIMR\examples\limr\limr_analysis_llamafactory.py`
    - 该脚本读取 `INITIAL_SAMPLES_DIR` 中的所有 `.jsonl` 样本文件
-   - 根据 `--threshold` (以及脚本内部逻辑，可能结合 `--original_data_path`) 进行筛选
+   - 根据 `--threshold`进行筛选
    - 将筛选结果写入 `FILTERED_DATASET_INFO` 文件
 
    ### 阶段 3: SFT 微调
@@ -149,9 +149,9 @@
     - 允许 `finetuning_args.reward_model_type` 设置为 `"limr"`
   - **目的**: 将 LIMR 奖励计算和样本保存逻辑集成到 PPO 训练循环
 
-### 7. 数据筛选工具 (`lim_selection.py`)
+### 7. 数据筛选工具 (`limr_analysis_llamafactory.py`)
 
-- `LLaMA-Factory-FOR-LIMR/examples/limr/lim_selection.py`
+- `LLaMA-Factory-FOR-LIMR/examples/limr/limr_analysis_llamafactory.py`
   - **状态**: 新增文件
   - **内容**: 读取样本文件，根据奖励值筛选，并保存过滤后的样本信息
   - **目的**: 实现 LIMR 工作流的样本筛选步骤
